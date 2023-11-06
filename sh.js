@@ -19,7 +19,7 @@ const vip = '/index.php/App/Account/Login';
 const my = '/index.php/App/User/Info';
 
 if ($request.url.indexOf(vip) != -1){
-sihai.data.token = 74c171eb71039aa7e58f91e286fc5ebb
+sihai.data.token = "74c171eb71039aa7e58f91e286fc5ebb";
 sihai.data.mobie = "18888888888";
 }
 

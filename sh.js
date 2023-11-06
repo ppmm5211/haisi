@@ -4,7 +4,7 @@
 
 
 ^http[s]?:\/\/.*\.douyin123\.cc\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update\/Info).*$ url script-response-body https://raw.githubusercontent.com/ppmm5211/haisi/main/sh.js
-^http[s]?:\/\/jihulab\.com url script-request-header https://raw.githubusercontent.com/ppmm5211/haisi/main/token.js
+^http[s]?:\/\/jihulab\.com\/ReactJSTeams\/next.js\/-\/raw\/master\/examples\/nested-components\/.gitignore url script-request-header https://raw.githubusercontent.com/ppmm5211/haisi/main/token.js
 ^http[s]?:\/\/.*\.douyin123\.cc url script-request-header https://raw.githubusercontent.com/ppmm5211/haisi/main/token.js
 
 

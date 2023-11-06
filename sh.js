@@ -11,7 +11,6 @@
 [mitm]
 hostname = *douyin123*
 
-
 ***************************************/
 
 var sihai = JSON.parse($response.body);

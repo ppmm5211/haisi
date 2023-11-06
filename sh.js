@@ -9,7 +9,7 @@
 
 
 [mitm]
-hostname = *douyin123*
+hostname = *douyin123*,*jihulab.com
 
 ***************************************/
 

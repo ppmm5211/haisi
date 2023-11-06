@@ -3,9 +3,9 @@
 [rewrite_local]
 
 
-^http[s]?:\/\/.*\.douyin123\.cc\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ url script-response-body http://fk.gjds.vip/shenhu/b.js
+^http[s]?:\/\/.*\.douyin123\.cc\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update\/Info).*$ url script-response-body https://raw.githubusercontent.com/ppmm5211/haisi/main/sh.js
 
-^http[s]?:\/\/.*\.douyin123\.cc url script-request-header http://fk.gjds.vip/shenhu/t.js
+^http[s]?:\/\/.*\.douyin123\.cc url script-request-header https://raw.githubusercontent.com/ppmm5211/haisi/main/token.js
 
 
 [mitm]
@@ -14,14 +14,20 @@ hostname = *douyin123*
 
 ***************************************/
 
+var sihai = JSON.parse($response.body);
+const vip = '/index.php/App/Account/Login';
+const my = '/index.php/App/User/Info';
 
-var objc = JSON.parse($response.body);
-
-    objc = {
-  {   "status" : true,   "result" : {     "mobile" : "by~海思",     "no_agents" : 1,     "sales_page" : "https://t.me/123",     "expired_time" : 1749383454,     "expired_days" : 798,     "sales_page_online" : "https://t.me/123",     "contect_info" : ""   } }
-    }
-  }
+if ($request.url.indexOf(vip) != -1){
+sihai.data.token = d017ae542e953dd08e88363fb28dc9aa
+sihai.data.mobie = "18888888888";
 }
 
+if ($request.url.indexOf(my) != -1){
+sihai.data.mobie = "sihai";
+sihai.data.expired_time" = "1749383454";
+sihai.data.expired_days" = "798";
 
-$done({body : JSON.stringify(objc)});
+}
+
+$done({body : JSON.stringify(sihai)});

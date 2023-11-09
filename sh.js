@@ -19,18 +19,18 @@ const my = '/index.php/App/User/Info';
 
 if ($request.url.indexOf(vip) != -1){
 sihai.data.status = "true";
-sihai.data.code = "86";
-sihai.data.mobile = "13813813888";
-sihai.data.uid = "100006508";
-sihai.data.token = "74c171eb71039aa7e58f91e286fc5ebb;
+sihai.data.result["code"] = "86";
+sihai.data.result["mobile"] = "13813813888";
+sihai.data.result["uid"] = "100006508";
+sihai.data.result["token"] = "74c171eb71039aa7e58f91e286fc5ebb";
 sihai.data.code = "0";  
 }
 
 if ($request.url.indexOf(my) != -1){
 sihai.data.status = "true";
-sihai.data.mobile = "by~海思";
-sihai.data.expired_time = "1749383454";
-sihai.data.expired_days = "798;
-sihai.data.code = "0";  
+sihai.data.result[mobile"] = "by~海思";
+sihai.data.result["no_agents"] = "1";
+sihai.data.result["expired_time"] = "1749383454";
+sihai.data.result["expired_days"] = "798";
 }
 $done({body : JSON.stringify(sihai)});

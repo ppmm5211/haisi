@@ -18,15 +18,11 @@ const vip = '/index.php/App/Account/Login';
 const my = '/index.php/App/User/Info';
 
 if ($request.url.indexOf(vip) != -1){
-sihai.data.status = "true";
-sihai.data.result = " {     "code" : "86",     "mobile" : "13813813888",     "uid" : "100564593",     "token" : "d017ae542e953dd08e88363fb28dc9aa"   }";
-sihai.data.code = "0";  
+sihai = {"status" : true,   "result" : {     "mobile" : "by~海思",     "no_agents" : 1,     "sales_page" : "https://t.me/123",     "expired_time" : 1749383454,     "expired_days" : 798,     "sales_page_online" : "https://t.me/123",     "contect_info" : ""   }
 }
 
 if ($request.url.indexOf(my) != -1){
-sihai.data.status = "true";
-sihai.data.result" = " {     "code" : "86",     "mobile" : "13813813888",     "uid" : "100564593",     "token" : "d017ae542e953dd08e88363fb28dc9aa"   }";
-sihai.data.code" = "0";
+sihai = {   "status" : true,   "result" : {     "code" : "86",     "mobile" : "13813813888",     "uid" : "100564593",     "token" : "d017ae542e953dd08e88363fb28dc9aa"   },   "code" : 0 }
 
 }
 

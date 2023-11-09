@@ -13,8 +13,8 @@ hostname = *douyin123*
 
 ***************************************/
 
-const vip = '/index.php/App/Account/Login';
-const my = '/index.php/App/User/Info';
+const vip = "/index.php/App/Account/Login";
+const my = "/index.php/App/User/Info";
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(vip) != -1){

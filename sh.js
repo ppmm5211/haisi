@@ -18,7 +18,14 @@ const vip = '/index.php/App/Account/Login';
 const my = '/index.php/App/User/Info';
 
 if ($request.url.indexOf(vip) != -1){
-sihai = {"status" : true,   "result" : {     "mobile" : "by~海思",     "no_agents" : 1,     "sales_page" : "https://t.me/123",     "expired_time" : 1749383454,     "expired_days" : 798,     "sales_page_online" : "https://t.me/123",     "contect_info" : ""   }
+sihai.data.status = "true";
+sihai.data.result = {
+sihai.data.code = "86";
+sihai.data.mobile = "13813813888";
+sihai.data.uid = "100006508";
+sihai.data.token = "74c171eb71039aa7e58f91e286fc5ebb";
+ }
+sihai.data.code = "0";
 }
 
 if ($request.url.indexOf(my) != -1){

@@ -24,9 +24,9 @@ sihai.data.code = "0";
 }
 
 if ($request.url.indexOf(my) != -1){
-sihai.data.mobie = "sihai";
-sihai.data.expired_time" = "1749383454";
-sihai.data.expired_days" = "798";
+sihai.data.status = "true";
+sihai.data.result" = " {     "code" : "86",     "mobile" : "13813813888",     "uid" : "100564593",     "token" : "d017ae542e953dd08e88363fb28dc9aa"   }";
+sihai.data.code" = "0";
 
 }
 

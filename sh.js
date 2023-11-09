@@ -18,19 +18,19 @@ const my = "/index.php/App/User/Info";
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(vip) != -1){
-obj.data.status = "true";
+obj.data.status = true;
 obj.data.result["code"] = "86";
 obj.data.result["mobile"] = "13813813888";
 obj.data.result["uid"] = "100006508";
 obj.data.result["token"] = "74c171eb71039aa7e58f91e286fc5ebb";
-obj.data.code = "0";  
+obj.data.code = 0;  
 }
 
 if ($request.url.indexOf(my) != -1){
-obj.data.status = "true";
+obj.data.status = true;
 obj.data.result[mobile"] = "by~海思";
-obj.data.result["no_agents"] = "1";
-obj.data.result["expired_time"] = "1749383454";
-obj.data.result["expired_days"] = "798";
+obj.data.result["no_agents"] = 1;
+obj.data.result["expired_time"] = 1749383454;
+obj.data.result["expired_days"] = 798;
 }
 $done({body : JSON.stringify(obj)});

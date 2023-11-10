@@ -1,20 +1,4 @@
-/**************************************
-[rewrite_local]
 
-
-^http[s]?:\/\/.*\.douyin123\.cc\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update\/Info).*$ url script-response-body https://raw.githubusercontent.com/ppmm5211/haisi/main/sh.js
-
-
-[mitm]
-hostname = *douyin123*
-
-***************************************/
-
-const vip = "/index.php/App/Account/Login";
-const my = "/index.php/App/User/Info";
-let obj = JSON.parse($response.body);
-
-if ($request.url.indexOf(vip) != -1){
 /**************************************
 [rewrite_local]
 

@@ -20,7 +20,7 @@ obj.status = true,
 obj.result = {
     "mobile": "13813813888",
     "uid": "100006508",
-    "token": "74c171eb71039aa7e58f91e286fc5ebb"   
+    "token": "67b504be52f6e4244ed115d5315dfe80"   
   },
 obj.code = 0
 body = JSON.stringify(obj);

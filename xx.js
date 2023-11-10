@@ -17,7 +17,7 @@ const my = "/index.php/App/User/Info";
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(vip) != -1){
-obj.data.result = {
+obj.result = {
     "mobile": "13813813888",
     "uid": "100006508",
     "token": "74c171eb71039aa7e58f91e286fc5ebb"

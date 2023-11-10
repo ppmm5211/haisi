@@ -26,5 +26,14 @@ obj.result = {
 obj.code = 0
 body = JSON.stringify(obj);
 };
+if ($request.url.indexOf(my) != -1){
+obj.status = true,
+obj.result = {
+    "mobile": "by~海思",
+    "expired_time": 1749383454,
+    "expired_days": 888   
+  },
+body = JSON.stringify(obj);
+}
 $done({body});
   

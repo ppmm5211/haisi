@@ -19,7 +19,7 @@ if ($request.url.indexOf(vip) != -1){
 obj.status = true,
 obj.result = {
     "mobile": "13813813888",
-    "uid": "100006508",
+    "uid": "100006507",
     "token": "67b504be52f6e4244ed115d5315dfe80"   
   },
 obj.code = 0

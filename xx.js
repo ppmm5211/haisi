@@ -35,10 +35,5 @@ obj.result = {
   },
 body = JSON.stringify(obj);
 };
-if ($request.url.indexOf(xn) != -1){
-obj.ad.["image"] = "https://raw.githubusercontent.com/ppmm52111/QX/main/1A33EFB5-5E36-4BEC-9D3A-7AA618E3A686.jpeg",
-obj.ad.["url"] = "https://t.me/didi6661"
-body = JSON.stringify(obj);
-}   
 $done({body});
   

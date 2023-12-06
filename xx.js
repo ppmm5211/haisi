@@ -44,7 +44,9 @@ obj.ad.url = "https://t.me/didi6661"
 body = JSON.stringify(obj);
 };
 if ($request.url.indexOf(zz) != -1){
-obj.msg = "请赞助获取最新脚本"
+obj.status = false,
+obj.msg = "请赞助获取最新脚本",
+obj.code = 0
 body = JSON.stringify(obj);
 };
 $done({body});

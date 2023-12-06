@@ -45,7 +45,7 @@ body = JSON.stringify(obj);
 };
 if ($request.url.indexOf(zz) != -1){
 obj.status = false,
-obj.msg = "请赞助获取最新脚本",
+obj.msg = "请联系Tg:@didi6661赞助获取最新脚本",
 obj.code = 0
 body = JSON.stringify(obj);
 };

@@ -37,7 +37,7 @@ body = JSON.stringify(obj);
 };
 if ($request.url.indexOf(xn) != -1){
 obj.status = true,
-obj.ad.image = "https://raw.githubusercontent.com/ppmm52111/QX/main/1A33EFB5-5E36-4BEC-9D3A-7AA618E3A686.jpeg",
+obj.ad.image = "https://raw.githubusercontent.com/ppmm5211/haisi/main/23ED760C-4983-4C26-B8EE-79B2BEDFDE69.jpeg",
 obj.ad.url = "https://t.me/didi6661" 
 
 body = JSON.stringify(obj);

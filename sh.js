@@ -13,24 +13,37 @@ hostname = *douyin123*
 
 ***************************************/
 
-const vip = "/index.php/App/Account/Login";
-const my = "/index.php/App/User/Info";
-let obj = JSON.parse($response.body);
-
 if ($request.url.indexOf(vip) != -1){
-obj.data.status = true;
-obj.data.result["code"] = "86";
-obj.data.result["mobile"] = "13813813888";
-obj.data.result["uid"] = "100006508";
-obj.data.result["token"] = "74c171eb71039aa7e58f91e286fc5ebb";
-obj.data.code = 0;  
-}
-
+obj.status = true,
+obj.result = {
+    "mobile": "13813813888",
+    "uid": "100006507",
+    "token": "358865bb3bd938516a953956b1b0ada8"   
+  },
+obj.code = 0
+body = JSON.stringify(obj);
+};
 if ($request.url.indexOf(my) != -1){
-obj.data.status = true;
-obj.data.result[mobile"] = "by~海思";
-obj.data.result["no_agents"] = 1;
-obj.data.result["expired_time"] = 1749383454;
-obj.data.result["expired_days"] = 798;
-}
-$done({body : JSON.stringify(obj)});
+obj.status = true,
+obj.result = {
+    "mobile": "by~海思",
+    "expired_time": 1749383454,
+    "expired_days": 888   
+  },
+body = JSON.stringify(obj);
+};
+if ($request.url.indexOf(xn) != -1){
+obj.status = true,
+obj.ad.image = "https://raw.githubusercontent.com/ppmm5211/haisi/main/23ED760C-4983-4C26-B8EE-79B2BEDFDE69.jpeg",
+obj.ad.url = "https://t.me/didi6661" 
+
+body = JSON.stringify(obj);
+};
+if ($request.url.indexOf(zz) != -1){
+obj.status = false,
+obj.msg = "请联系Tg:@didi6661赞助获取最新脚本",
+obj.code = 0
+body = JSON.stringify(obj);
+};
+$done({body});
+  

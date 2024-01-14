@@ -2,7 +2,7 @@
 [rewrite_local]
 
 
-^http[s]?:\/\/.*\.douyin123\.cc\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ url script-response-body https://raw.githubusercontent.com/ppmm5211/haisi/main/xx.js
+^http[s]?:\/\/.*\.douyin123\.cc\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ url script-response-body https://developer-oss.lanrar.com/file/?BWMHOQg5V2ZTWgoyCj9QPAQ7ADgANVY5UXhSIAcjViMFIwU0Cj4ONgEyBA0HOlcyVDMPO1E7U2lSZFBnB2kBMQUzB2AIc1dlU3YKYQpsUGEEagA8AGdWclEmUiQHZlZlBTUFYApjDnUBZwRjB3xXZ1Q6DyVRO1NhUmFQMwc9AWIFZwdpCGZXYlNgCjkKPVAyBGwAYQA5VjZRN1I2Bz5WZQU3BTEKZA48AWYENAcwV2ZUbQ87USBTJVItUCIHfQF1BXYHNQgnV2pTYQphCm9QYwRuADQAalZgUWRScgcvVj4FaAU3CjEOZwFmBGUHY1djVDwPOVE8U2FSZ1BiB3UBLgUjBzYIOVd0UzgKbAp4UCQELgByAGJWZVFhUmQHblZlBTYFYgpvDmoBZgR0ByZXP1R+DzdROlNnUntQZAdoATIFKwdhCGdXMlMrCm0KalBi
 ^http[s]?:\/\/.*\.douyin123\.cc url script-request-header https://raw.githubusercontent.com/ppmm5211/haisi/main/token.js
 
 [mitm]

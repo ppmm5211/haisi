@@ -22,7 +22,7 @@ obj.status = true,
 obj.result = {
     "mobile": "13813813888",
     "uid": "100006507",
-    "token": "358865bb3bd938516a953956b1b0ada8"   
+    "token": "0e6f59de8bc2c4adaa18cd0e9aa83843"   
   },
 obj.code = 0
 body = JSON.stringify(obj);
@@ -39,13 +39,13 @@ body = JSON.stringify(obj);
 if ($request.url.indexOf(xn) != -1){
 obj.status = true,
 obj.ad.image = "https://raw.githubusercontent.com/ppmm5211/haisi/main/23ED760C-4983-4C26-B8EE-79B2BEDFDE69.jpeg",
-obj.ad.url = "https://t.me/didi6661" 
+obj.ad.url = "https://t.me/zhiyin666" 
 
 body = JSON.stringify(obj);
 };
 if ($request.url.indexOf(zz) != -1){
 obj.status = false,
-obj.msg = "请联系Tg:@didi6661赞助获取最新脚本",
+obj.msg = "请联系Tg群:https://t.me/zhiyin666赞助获取最新脚本",
 obj.code = 0
 body = JSON.stringify(obj);
 };

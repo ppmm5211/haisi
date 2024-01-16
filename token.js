@@ -1,8 +1,8 @@
 var headers = $request.headers;
 
-headers['uid'] = '100707662';
+headers['uid'] = '100006508';
 
-headers['user-info'] = '100707662';
+headers['user-info'] = '100006508';
 
 headers['token'] = 'b067c4db9a04cc43a646b6a8b6250f39';
 

@@ -7,3 +7,8 @@
 hostname = dfhapi.h8h4h.com
 
 ***************************************/
+var headers = $request.headers;
+
+headers['authorization'] = 'bearer 74f971f7251dd4a4c403e1a5f6fdeabb';
+
+$done({headers: headers}

@@ -3,11 +3,11 @@
 [rewrite_local]
 
 
-^http[s]?:\/\/.*\.douyin123\.cc\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ url script-response-body https://raw.githubusercontent.com/ppmm5211/haisi/main/xx.js
-^http[s]?:\/\/.*\.douyin123\.cc url script-request-header https://raw.githubusercontent.com/ppmm5211/haisi/main/token.js
+^http[s]?:\/\/gameapi.mma.dstor.cc\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ url script-response-body https://raw.githubusercontent.com/ppmm5211/haisi/main/xx.js
+^http[s]?:\/\/gameapi.mma.dstor.cc url script-request-header https://raw.githubusercontent.com/ppmm5211/haisi/main/token.js
 
 [mitm]
-hostname = *douyin123*
+hostname = gameapi.mma.dstor.cc
 
 ***************************************/
 
@@ -22,7 +22,7 @@ obj.status = true,
 obj.result = {
     "mobile": "13813813888",
     "uid": "100006507",
-    "token": "b067c4db9a04cc43a646b6a8b6250f39"   
+    "token": "7de08c22b83d4b8425467d78e927a52e"   
   },
 obj.code = 0
 body = JSON.stringify(obj);

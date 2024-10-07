@@ -9,6 +9,6 @@ hostname =cwt98ehs.cqict.cn
 ***************************************/
 var headers = $request.headers;
 
-headers['x-cookie-auth'] = '3534663432336164303563653336636439376637323935306433643736656231';
+headers['X-Cookie-Auth'] = '3534663432336164303563653336636439376637323935306433643736656231';
 
 $done({headers: headers}
